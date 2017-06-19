@@ -1,0 +1,18 @@
+.nav-bar {
+	padding: 20px 0;
+	&__logo {
+		font-size: 1.4rem;
+		color: $body-text-white;
+		float: left;
+		cursor: pointer;
+	}
+	&__menu {
+		float: right;
+		cursor: pointer;
+		&-item{
+			display: inline-block;
+    		position: relative;
+    		padding-left: 16px;
+		}
+	}
+}
