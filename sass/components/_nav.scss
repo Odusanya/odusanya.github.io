@@ -4,10 +4,10 @@
         font-size: 1.6rem;
         color: $body-text-white;
         float: left;
-
+        width: 83px;
         cursor: pointer;
         transition: 300ms ease-out;
-        text-align: center;
+        text-align: left;
         will-change: letter-spacing;
         &:hover {
             letter-spacing: .04em;
@@ -17,7 +17,7 @@
         float: right;
         cursor: pointer;
         font-size: 1.6rem;
-        text-align: center;
+        text-align: left;
         &-item {
             display: inline-block;
             position: relative;
