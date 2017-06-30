@@ -1,9 +1,12 @@
 .nav-bar {
     padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+
     &__logo {
         font-size: 1.6rem;
         color: $body-text-white;
-        float: left;
+        // float: left;
         width: 83px;
         cursor: pointer;
         transition: 300ms ease-out;
@@ -20,6 +23,7 @@
         text-align: left;
         &-item {
             display: inline-block;
+            color: rgba($body-text-white,0.45);
             position: relative;
             width: 83px;
             transition: 250ms linear;
