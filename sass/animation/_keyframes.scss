@@ -1,86 +1,109 @@
+//Nav-hover animation
 
 @-webkit-keyframes anim-in-text {
   0% {
     -webkit-transform: translate3d(100%, 0, 0);
-    transform: translate3d(100%, 0, 0); }
+    transform: translate3d(100%, 0, 0);
+  }
   to {
-    -webkit-transform: translateZ(0); } }
+    -webkit-transform: translateZ(0);
+  }
+}
 
 @keyframes anim-in-text {
   0% {
     -webkit-transform: translate3d(100%, 0, 0);
-    transform: translate3d(100%, 0, 0); }
+    transform: translate3d(100%, 0, 0);
+  }
   to {
-    -webkit-transform: translateZ(0); } }
+    -webkit-transform: translateZ(0);
+  }
+}
 
 @-webkit-keyframes anim-in-layer {
   0% {
     -webkit-transform: translate3d(-100%, 0, 0);
-    transform: translate3d(-100%, 0, 0); }
+    transform: translate3d(-100%, 0, 0);
+  }
   to {
     -webkit-transform: translateZ(0);
-    transform: translateZ(0); } }
+    transform: translateZ(0);
+  }
+}
 
 @keyframes anim-in-layer {
   0% {
     -webkit-transform: translate3d(-100%, 0, 0);
-    transform: translate3d(-100%, 0, 0); }
+    transform: translate3d(-100%, 0, 0);
+  }
   to {
     -webkit-transform: translateZ(0);
-    transform: translateZ(0); } }
+    transform: translateZ(0);
+  }
+}
 
 @-webkit-keyframes anim-out-text {
   0% {
     -webkit-transform: translateZ(0);
-    transform: translateZ(0); }
+    transform: translateZ(0);
+  }
   to {
     -webkit-transform: translate3d(-100%, 0, 0);
-    transform: translate3d(-100%, 0, 0); } }
+    transform: translate3d(-100%, 0, 0);
+  }
+}
 
 @keyframes anim-out-text {
   0% {
     -webkit-transform: translateZ(0);
-    transform: translateZ(0); }
+    transform: translateZ(0);
+  }
   to {
     -webkit-transform: translate3d(-100%, 0, 0);
-    transform: translate3d(-100%, 0, 0); } }
+    transform: translate3d(-100%, 0, 0);
+  }
+}
 
 @-webkit-keyframes anim-out-layer {
   0% {
     -webkit-transform: translateZ(0);
-    transform: translateZ(0); }
+    transform: translateZ(0);
+  }
   to {
     -webkit-transform: translate3d(100%, 0, 0);
-    transform: translate3d(100%, 0, 0); } }
+    transform: translate3d(100%, 0, 0);
+  }
+}
 
 @keyframes anim-out-layer {
   0% {
     -webkit-transform: translateZ(0);
-    transform: translateZ(0); }
+    transform: translateZ(0);
+  }
   to {
     -webkit-transform: translate3d(100%, 0, 0);
-    transform: translate3d(100%, 0, 0); } }
+    transform: translate3d(100%, 0, 0);
+  }
+} 
 
-
-
-    //Bounce Effect
+// Card Bounce Effect
 
 @-webkit-keyframes bounce {
-    from,
-    to {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(10px);
-    }
+  from,
+  to {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
 }
 
 @keyframes bounce {
-    from,
-    to {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(10px);
-    }
+  from,
+  to {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
 }
