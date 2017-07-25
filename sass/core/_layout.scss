@@ -7,6 +7,9 @@
     max-width: 1040px;
     padding: 0 20px;
     width: 100%;
+    @include screen(med-small) {
+        margin: 0 auto;
+    }
     &--sm {
         max-width: 760px;
     }

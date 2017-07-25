@@ -27,12 +27,13 @@
 
 
 .name {
-  h2 {
+  h1 {
   font-size: 7.8rem;
   // font-family: 'pultin';
   font-family: 'Glosa Display Roman';
   font-weight: 300;
   margin: 62px auto 32px;
+  line-height: 1.3;
   // font-weight: 100;
   // margin: 0;
   // padding: 0;
@@ -45,7 +46,7 @@
   p {
     font-size: 2.0rem;
     opacity: 0.7;
-    line-height: 1.6;
+    line-height: 1.8;
     padding: 0;
     margin: 0;
     letter-spacing: 0.5px;
