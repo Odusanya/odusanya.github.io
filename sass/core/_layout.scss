@@ -3,7 +3,7 @@
 }
 
 .container {
-    margin: 0 auto;
+    margin: 0 16%;
     max-width: 1040px;
     padding: 0 20px;
     width: 100%;
@@ -16,6 +16,18 @@
     &--lg {
         max-width: 1240px;
     }
+}
+
+.divider {
+    height: 2px;
+    background-color: rgba($deep-black, 0.8s);
+    &--full {
+        width: 100%;
+    }
+    &--md {
+        width: 60%;
+    }
+    
 }
 
 .grid {

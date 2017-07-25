@@ -1,23 +1,51 @@
 .landing {
   position: relative;
-  display: flex;
-  align-items: center;
-  width: 100%;
-  height: calc(100vh - 78px);
-  overflow: hidden; // justify-content: center;
-  .bio--card {
-    background-color: $card-bg-color; // min-height: 275px;
-    width: 100%; // z-index: 25;
-    box-shadow: 4px 0 4px -3px rgba(#181C1F, 0.8);
-    // box-shadow: 3.58318rem 3.58318rem 15.40702rem 0 #181c1F;
-    // box-shadow:2.48832rem 2.48832rem 7.43008rem 0 #181c1f;
-    // box-shadow: 24.8832px 24.8832px 52px -18px #181c1f;
-    display: flex;
-    position: relative;
-    background-color: #21272b;
-    align-items: center;
-    padding: 90px; // position: absolute;
-    // transform: translateY(50%);
-    // top: -50%;
+  // float: left;
+  // display: flex;
+  // align-items: center;
+  // width: 100%;
+  padding-top: 5%;
+  // height: calc(100vh - 78px);
+  // overflow: hidden;
+  //  justify-content: center;
+  // .bio--card {
+  //   background-color: $card-bg-color; // min-height: 275px;
+  //   width: 100%; // z-index: 25;
+  //   box-shadow: 4px 0 4px -3px rgba(#181C1F, 0.8);
+  //   // box-shadow: 3.58318rem 3.58318rem 15.40702rem 0 #181c1F;
+  //   // box-shadow:2.48832rem 2.48832rem 7.43008rem 0 #181c1f;
+  //   // box-shadow: 24.8832px 24.8832px 52px -18px #181c1f;
+  //   display: flex;
+  //   position: relative;
+  //   background-color: #21272b;
+  //   align-items: center;
+  //   padding: 90px; // position: absolute;
+  //   // transform: translateY(50%);
+  //   // top: -50%;
+  // }
+}
+
+
+.name {
+  h2 {
+  font-size: 7.8rem;
+  // font-family: 'pultin';
+  font-family: 'Glosa Display';
+  // font-weight: 100;
+  // margin: 0;
+  // padding: 0;
+  }
+}
+
+.description {
+  width: 70%;
+  padding-top: 0.83em;
+  p {
+    font-size: 2.0rem;
+    opacity: 0.6;
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+    letter-spacing: 0.5px;
   }
 }
