@@ -44,7 +44,7 @@
 
 .sidebar {
     background-color: $deep-black;
-    height: 100vh;
+    height: 100%;
     float: left;
     display: inline-flex;
     flex-direction: column;
@@ -79,6 +79,7 @@
         flex-flow: column wrap;
         justify-content: space-between;
         margin: 0 auto;
+        overflow: auto;
         li {
             padding: 0;
             display: inline-block;
