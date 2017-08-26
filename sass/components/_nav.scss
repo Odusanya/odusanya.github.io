@@ -19,15 +19,14 @@
         font-size: 1.6rem;
         text-align: left;
         .active a {
-           color: #fff;
+            color: #fff;
         }
         &-item {
-            display: inline-block; 
-            color: rgba($body-text-white,0.15);
+            display: inline-block;
+            color: rgba($body-text-white, 0.15);
             position: relative;
             margin-left: 15px;
             margin-right: 15px;
-
             &:last-child {
                 margin-right: 0px;
             }
@@ -44,8 +43,8 @@
 
 .sidebar {
     background-color: $deep-black;
-    height: 100%;
-    float: left;
+    // height: 100%;
+    // float: left;
     display: inline-flex;
     flex-direction: column;
     justify-content: space-between;
@@ -53,19 +52,18 @@
     width: 50px;
     direction: rtl;
     overflow: auto;
-    position: fixed;
+    // position: fixed;
+    // left: 0;
     // padding: 10px 10px 0;
     z-index: 4;
-
-    @include screen(med) {
+    @include screen(mid) {
         display: none;
     }
-    // @include screen(med) {
+    // @include screen(mid) {
     //     &--three {
     //         display: block;
     //     }
     // }
-
     &__link {
         margin-top: 15px;
         transform: rotate(-90deg);
@@ -97,21 +95,15 @@
                 position: relative;
                 display: block;
                 display: inline-block;
-                opacity: 0.8;      
+                opacity: 0.8;
                 padding-bottom: 10px;
-                
                 i {
                     font-size: 1.4rem;
                 }
-                
                 &:last-of-type {
                     margin-bottom: 0px;
                 }
             }
         }
-
     }
 }
-
-
-

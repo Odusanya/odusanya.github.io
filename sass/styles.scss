@@ -1,5 +1,5 @@
-
 /*Core*/
+
 @import 'core/reset';
 @import 'core/variables';
 @import 'core/mixins';
@@ -7,21 +7,24 @@
 @import 'core/fonts';
 
 /*Utilities*/
+
 @import 'utilities/text';
 
 /*Components*/
+
 @import 'components/nav';
 @import 'components/buttons';
 
 /*Animation*/
+
 @import 'animation/keyframes';
 @import 'animation/bounce';
 @import 'animation/nav-hover';
 // @import 'modules/works';
 // @import 'modules/contact';
 
-
 /*Modules*/
+
 @import 'modules/home';
 @import 'modules/uc';
 // @import 'modules/contact';
