@@ -5,7 +5,6 @@
 //     font-weight: 400;
 //     font-style: normal
 // }
-
 // @font-face {
 //     font-family: 'Segoe UI';
 //     src: url("https://c.s-microsoft.com/static/fonts/segoe-ui/west-european/semibold/latest.eot");
@@ -13,7 +12,6 @@
 //     font-weight: 600;
 //     font-style: normal
 // }
-
 // @font-face {
 //     font-family: 'Segoe UI';
 //     src: url("https://c.s-microsoft.com/static/fonts/segoe-ui/west-european/bold/latest.eot");
@@ -21,72 +19,53 @@
 //     font-weight: 700;
 //     font-style: normal
 // }
-
 @font-face {
-	font-family: 'Calibre';
-	src: url('../fonts/Calibre/Calibre-Medium.eot');
-	src: url('../fonts/Calibre/Calibre-Medium.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/Calibre/Calibre-Medium.woff2') format('woff2'),
-		url('../fonts/Calibre/Calibre-Medium.woff') format('woff'),
-		url('../fonts/Calibre/Calibre-Medium.ttf') format('truetype'),
-		url('../fonts/Calibre/Calibre-Medium.svg#Calibre-Medium') format('svg');
-	font-weight: 700;
-	font-style: normal;
-    text-rendering: optimizeLegibility;    
-}
-
-
-@font-face {
-	font-family: 'Calibre';
-	src: url('../fonts/Calibre/Calibre-Regular.eot');
-	src: url('../fonts/Calibre/Calibre-Regular.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/Calibre/Calibre-Regular.woff2') format('woff2'),
-		url('../fonts/Calibre/Calibre-Regular.woff') format('woff'),
-		url('../fonts/Calibre/Calibre-Regular.ttf') format('truetype'),
-		url('../fonts/Calibre/Calibre-Regular.svg#Karla-Regular') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-
-
-@font-face {
-	font-family: 'Glosa Display';
-	src: url('../fonts/Glosa/GlosaDisplay-Bold.eot');
-	src: url('../fonts/Glosa/GlosaDisplay-Bold.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/Glosa/GlosaDisplay-Bold.woff') format('woff'),
-		url('../fonts/Glosa/GlosaDisplay-Bold.ttf') format('truetype');
-	font-weight: bold;
-	font-style: normal;
+    font-family: 'Calibre';
+    src: url('../fonts/Calibre/Calibre-Medium.eot');
+    src: url('../fonts/Calibre/Calibre-Medium.eot?#iefix') format('embedded-opentype'), // url('../fonts/Calibre/Calibre-Medium.woff2') format('woff2'),
+    url('../fonts/Calibre/Calibre-Medium.woff') format('woff'), url('../fonts/Calibre/Calibre-Medium.ttf') format('truetype'), url('../fonts/Calibre/Calibre-Medium.svg#Calibre-Medium') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
 }
 
 @font-face {
-	font-family: 'Glosa Display Roman';
-	src: url('../fonts/Glosa/GlosaDisplay-Roman.eot');
-	src: url('../fonts/Glosa/GlosaDisplay-Roman.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/Glosa/GlosaDisplay-Roman.woff') format('woff'),
-		url('../fonts/Glosa/GlosaDisplay-Roman.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'Calibre';
+    src: url('../fonts/Calibre/Calibre-Regular.eot');
+    src: url('../fonts/Calibre/Calibre-Regular.eot?#iefix') format('embedded-opentype'), // url('../fonts/Calibre/Calibre-Regular.woff2') format('woff2'),
+    url('../fonts/Calibre/Calibre-Regular.woff') format('woff'), url('../fonts/Calibre/Calibre-Regular.ttf') format('truetype'), url('../fonts/Calibre/Calibre-Regular.svg#Karla-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-	font-family: 'Glosa Display';
-	src: url('../fonts/Glosa/GlosaDisplay-Medium.eot');
-	src: url('../fonts/Glosa/GlosaDisplay-Medium.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/Glosa/GlosaDisplay-Medium.woff') format('woff'),
-		url('../fonts/Glosa/GlosaDisplay-Medium.ttf') format('truetype');
-	font-weight: 500;
-	font-style: normal;
+    font-family: 'Glosa Display';
+    src: url('../fonts/Glosa/GlosaDisplay-Bold.eot');
+    src: url('../fonts/Glosa/GlosaDisplay-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Glosa/GlosaDisplay-Bold.woff') format('woff'), url('../fonts/Glosa/GlosaDisplay-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
 }
-
 
 @font-face {
-	font-family: 'Glosa Display';
-	src: url('../fonts/Glosa/GlosaDisplay-Black.eot');
-	src: url('../fonts/Glosa/GlosaDisplay-Black.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/Glosa/GlosaDisplay-Black.woff') format('woff'),
-		url('../fonts/Glosa/GlosaDisplay-Black.ttf') format('truetype');
-	font-weight: 900;
-	font-style: normal;
+    font-family: 'Glosa Display Roman';
+    src: url('../fonts/Glosa/GlosaDisplay-Roman.eot');
+    src: url('../fonts/Glosa/GlosaDisplay-Roman.eot?#iefix') format('embedded-opentype'), url('../fonts/Glosa/GlosaDisplay-Roman.woff') format('woff'), url('../fonts/Glosa/GlosaDisplay-Roman.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
+@font-face {
+    font-family: 'Glosa Display';
+    src: url('../fonts/Glosa/GlosaDisplay-Medium.eot');
+    src: url('../fonts/Glosa/GlosaDisplay-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/Glosa/GlosaDisplay-Medium.woff') format('woff'), url('../fonts/Glosa/GlosaDisplay-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Glosa Display';
+    src: url('../fonts/Glosa/GlosaDisplay-Black.eot');
+    src: url('../fonts/Glosa/GlosaDisplay-Black.eot?#iefix') format('embedded-opentype'), url('../fonts/Glosa/GlosaDisplay-Black.woff') format('woff'), url('../fonts/Glosa/GlosaDisplay-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
