@@ -7,25 +7,20 @@ button,
     display: inline-block;
     font-family: inherit;
     font-size: 14px;
-    font-weight: 500; // height: $button-height;
+    font-weight: 100; // height: $button-height;
     // line-height: $button-height;
     outline: none;
     padding: 10px 22px 7px 24px;
     position: relative;
     text-decoration: none;
-    -webkit-transition-duration: 250ms;
-    transition-duration: 250ms;
-    -webkit-transition-timing-function: ease-in-out;
-    transition-timing-function: ease-in-out;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
+    transition: all 250ms ease-in-out;
     user-select: none;
     text-decoration: uppercase;
     &--transparent {
         background-color: transparent;
-        border: 1px solid rgba($body-text-white,0.2);
-        color: $body-text-white;;
+        border: 1px solid rgba($body-text-white, 0.2);
+        color: $body-text-white;
+        ;
         font-size: 18px;
         display: inline-block;
         max-width: 100%;
@@ -44,8 +39,9 @@ button,
             overflow: hidden;
         }
         &:hover {
-            background-color: rgba($body-text-white,0.85);
+            background-color: rgba($body-text-white, 0.85);
             color: $bg-color-black;
+            font-weight: 400;
         }
     }
 }
